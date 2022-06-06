@@ -15,7 +15,7 @@ int main(void)
 			{
 				putchar(x);
 				putchar(y);
-				if (d == '8' && p == '9')
+				if (x == '8' && y == '9')
 					continue;
 				putchar(',');
 				putchar(' ');
