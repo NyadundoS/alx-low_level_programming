@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints all possible  different combinations of two digits
- * Retun: o (when successful)
+ * Return: 0 (when successful)
  */
 int main(void)
 {
@@ -9,7 +9,7 @@ int main(void)
 
 	for (x = '0'; x < '9'; x++)
 	{
-		for (y = x+1; y <= '9'; y++)
+		for (y = x + 1; y <= '9'; y++)
 		{
 			if (y != x)
 			{
