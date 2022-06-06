@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-	char c = '2';
+	char c = 'z';
 
-	while (c >= '9')
+	while (c >= 'a')
 	{
 		putchar(c);
 		c--;
