@@ -3,7 +3,7 @@
  * main - program that prints _putchar
  * Return: 0 success
  */
-int main(void)
+int _putchar(char c)
 {
 	char ch[8] = "_putchar";
 	int i;
