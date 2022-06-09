@@ -1,4 +1,4 @@
-#include 
+#include <main.h> 
 /**
  * main - program that prints _putchar
  * Return: 0 success
@@ -9,7 +9,9 @@ int _putchar(char c)
 	int i;
 
 	for (i = 0; i < 8; i++)
+	{
 		_putchar(ch[i]);
 	_putchar('\n');
 	return (0);
-o.h>}
+	}
+}
